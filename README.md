@@ -29,23 +29,16 @@
 - **Backend:** FastAPI (Python), SQLite
 - **Deployment:** Docker, Procfile
 
-## Getting Started
+## Download
 
-```bash
-# Backend (Python)
-cd backend
-python3 -m venv venv
-venv/bin/pip install -r requirements.txt
+Grab the latest **Catalyst.app** for macOS from the Releases page:
 
-# Frontend (Node)
-cd ../frontend
-npm install
+**[⬇ Download Catalyst.app](https://github.com/Sneh30/Catalyst/releases/latest)**
 
-# Run both
-cd ..
-./run.sh
-```
+1. Unzip the downloaded `Catalyst.app.zip`
+2. Move `Catalyst.app` to your Applications folder and double-click to open
 
-- Frontend: http://localhost:5173
-- Backend: http://localhost:8000
-- API docs: http://localhost:8000/docs
+> **Note:** macOS may warn that the app is from an unidentified developer (it isn't notarized yet). Right-click `Catalyst.app` → **Open** → **Open**, or run:
+> ```bash
+> xattr -dr com.apple.quarantine /Applications/Catalyst.app
+> ```
