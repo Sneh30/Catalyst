@@ -1,6 +1,16 @@
-## Explainer video
+## Explainer video — embed tests
 
-[▶ Watch the explainer video](explainer.mp4)
+A) raw.githubusercontent direct src:
+<video src="https://raw.githubusercontent.com/Sneh30/Catalyst/master/explainer.mp4" controls preload="metadata" playsinline width="720"></video>
+
+B) github.com/.../raw src:
+<video src="https://github.com/Sneh30/Catalyst/raw/master/explainer.mp4" controls preload="metadata" playsinline width="720"></video>
+
+C) markdown image syntax with mp4:
+![explainer](https://raw.githubusercontent.com/Sneh30/Catalyst/master/explainer.mp4)
+
+D) bare raw URL:
+https://github.com/Sneh30/Catalyst/raw/master/explainer.mp4
 
 ---
 
