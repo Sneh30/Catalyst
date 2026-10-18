@@ -1,7 +1,5 @@
 ## Explainer video
 
-<video src="https://github.com/Sneh30/Catalyst/raw/HEAD/explainer.mp4" controls preload="metadata" playsinline width="720"></video>
-
 [▶ Watch the explainer video](explainer.mp4)
 
 ---
